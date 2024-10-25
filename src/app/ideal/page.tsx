@@ -7,15 +7,15 @@ export default function Home() {
       {/* Navbar */}
       <header className="container mx-auto p-6">
         <nav className="flex flex-col lg:flex-row justify-between items-center">
-          <h1 className="text-2xl font-bold hover:scale-150">BrandName</h1>
+          <h1 className="text-2xl font-bold hover:scale-150 text-white">BrandName</h1>
           <ul className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-6 mt-4 lg:mt-0">
-            <li><a href="./" className="hover:text-yellow-300">Home</a></li>
-            <li><a href="#" className="hover:text-yellow-300">Product</a></li>
-            <li><a href="#" className="hover:text-yellow-300">Pricing</a></li>
-            <li><a href="#" className="hover:text-yellow-300">Contact</a></li>
+            <li><a href="./" className="hover:text-yellow-300 text-white">Home</a></li>
+            <li><a href="#" className="hover:text-yellow-300 text-white">Product</a></li>
+            <li><a href="#" className="hover:text-yellow-300 text-white">Pricing</a></li>
+            <li><a href="#" className="hover:text-yellow-300 text-white">Contact</a></li>
           </ul>
           <div className="space-x-4 mt-4 lg:mt-0 flex flex-col lg:flex-row">
-            <button className="textwhite hover:text-yellow-300">Login</button>
+            <button className="textwhite hover:text-yellow-300 text-white">Login</button>
             <a href="#card1">
             <button className="bg-blue-500 px-4 py-2 rounded-lg text-white hover:text-gray-700 font-bold">JOIN US</button>
             </a>
@@ -27,8 +27,8 @@ export default function Home() {
       <div className="w-full max-w-[1046px] h-auto mt-4 mx-auto gap-8 p-4 lg:p-0">
       <section className="text-center py-8 lg:py-16">
         <p className="text-blue-400 hover:scale-150">Welcome</p>
-        <h2 className="text-2xl lg:text-4xl font-bold">Selling on the</h2>
-        <h2 className="text-2xl lg:text-4xl font-bold">internet like a pro</h2>
+        <h2 className="text-2xl lg:text-4xl font-bold text-white">Selling on the</h2>
+        <h2 className="text-2xl lg:text-4xl font-bold text-white">internet like a pro</h2>
         <p className="mt-4 text-white">We know how large objects will act, but things on a</p>
         <p className="mt-2 text-white">small scale just do not act that way.</p>
         <div className="mt-4 lg:mt-8 space-y-4 lg:space-y-0 lg:space-x-4 flex flex-col lg:flex-row justify-center">
