@@ -3,7 +3,7 @@
 
 export default function Home() {
   return (
-    <div className="bg-[#252B42] w-full h-auto lg:w-[1440px] lg:h-[1132px] mt-[0px] ml-[10px] md:px-[59px] gap-[40px] opacity-[1]">
+    <div className="bg-[#252B42] w-full h-auto lg:w-[1500px] lg:h-[1132px] m-[10px] md:px-[59px] gap-[40px] opacity-[1]">
       {/* Navbar */}
       <header className="container mx-auto p-6">
         <nav className="flex flex-col lg:flex-row justify-between items-center">

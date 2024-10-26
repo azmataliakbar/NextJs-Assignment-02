@@ -25,7 +25,7 @@ export default function Home() {
       </header>
       </div>
       {/* TEXT SECTION */}
-      <div className="w-full h-auto lg:w-[1046px] lg:h-[1028] mx-auto lg:mt-[104px] lg:ml-[197px] lg:pt-[80px] lg:pb-[80px] lg:gap-[80px] text-center">
+      <div className="w-full h-auto lg:w-[1046px] lg:h-[1028] mx-auto lg:mt-[0px] lg:ml-[197px] lg:pt-[80px] lg:pb-[80px] lg:gap-[80px] text-center">
   <section className="text-center px-8 py-8 lg:py-16">
     <p className="text-blue-400 hover:scale-150 ">Welcome</p>
     <h2 className="text-2xl lg:text-4xl font-bold text-white">Selling on the</h2>
